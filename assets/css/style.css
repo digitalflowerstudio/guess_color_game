@@ -1,0 +1,70 @@
+/* Global Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+/* Main Section */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  height: calc(100lvh - 7.62rem);
+}
+
+/* Heading Color */
+
+.color {
+  display: flex;
+  gap: 0.5rem;
+}
+
+/* Game Container */
+
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Boxes */
+
+.game * {
+  width: 3rem;
+  height: 3rem;
+  background-color: blue;
+  border-radius: 0.5rem;
+}
