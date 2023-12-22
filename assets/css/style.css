@@ -48,10 +48,11 @@ main {
 
 .color {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  margin-bottom: 2rem;
+  justify-content: center;
+  gap: 0.3rem;
+  width: 50%;
+  text-align: center;
 }
 
 /* Game Container */
@@ -64,6 +65,7 @@ main {
 }
 
 /* Boxes */
+
 .game * {
   width: 5rem;
   height: 5rem;
@@ -75,8 +77,8 @@ main {
 .reset button {
   background-color: #ff69b4;
   color: #fff;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
   border: none;
   border-radius: 0.5rem;
   cursor: pointer;
@@ -89,6 +91,6 @@ main {
 
 .outputText {
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #ff1493;
 }
