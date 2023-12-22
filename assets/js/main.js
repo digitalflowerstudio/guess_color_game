@@ -2,7 +2,7 @@ let colorOutput = document.querySelector(".randomColor");
 let result = document.querySelector(".outputText");
 let reset = document.querySelector(".reset");
 let boxes = document.querySelectorAll(".box");
-let colors; // Declare the colors array
+let colors;
 
 const generateRandomColor = () => {
   let r = Math.floor(Math.random() * 255);
