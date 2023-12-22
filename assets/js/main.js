@@ -17,7 +17,6 @@ const winningColor = () => {
   const numberBoxes = boxes.length;
   const winningColorIndex = Math.floor(Math.random() * numberBoxes);
   winColor = colors[winningColorIndex];
-  colorOutput.textContent = winColor;
 };
 
 const changeBoxColors = () => {
