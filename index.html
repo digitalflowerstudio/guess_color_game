@@ -40,7 +40,9 @@
     <script>
         const jsConfetti = new JSConfetti();
         function confettiFY() {
-            jsConfetti.addConfetti();
+            jsConfetti.addConfetti({
+                emojis: ["🦄", "🌈", "🏳️‍🌈"]
+            });
         }
         document.querySelector(".reset").addEventListener("click", confettiFY)
     </script>
