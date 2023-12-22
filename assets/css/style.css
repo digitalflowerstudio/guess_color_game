@@ -48,7 +48,10 @@ main {
 
 .color {
   display: flex;
-  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* Game Container */
@@ -57,14 +60,43 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 /* Boxes */
-
 .game * {
-  width: 3rem;
-  height: 3rem;
-  background-color: blue;
+  width: 5rem;
+  height: 5rem;
+  background-color: pink;
+  border-radius: 1rem;
+}
+
+/* Button Styles */
+.reset button {
+  background-color: #ff69b4;
+  color: #fff;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
   border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset button:hover {
+  background-color: #ff1493;
+}
+
+/* Output Section */
+.output {
+  position: relative;
+}
+
+.outputText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: #ff1493;
 }
